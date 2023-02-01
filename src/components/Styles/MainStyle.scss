@@ -1,0 +1,53 @@
+body {
+  background-color: #fefefe;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.title {
+  color: #1976d2;
+  text-align: center;
+  padding: 0px 12px;
+  margin-bottom: 55px;
+  animation: moveIn 1s ease-out forwards;
+  @keyframes moveIn {
+    from {
+      margin-top: -200px;
+      opacity: 0;
+    }
+    to {
+      margin-top: 20px;
+      opacity: 1;
+    }
+  }
+}
+
+.chart {
+  display: flex;
+  margin: auto;
+  max-width: 65%;
+  background-color: #fff;
+}
+.chart:hover {
+  cursor: pointer;
+}
+
+.lineChart {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px,
+    rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+  border-radius: 8px;
+}
+
+.paragraph {
+  padding: 0px 18px;
+  margin-bottom: 28px;
+  color: rgb(61, 61, 61);
+}
+
+.mainContent {
+  flex: 1;
+}
