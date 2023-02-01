@@ -1,4 +1,4 @@
-### 1) download the files 2) npm install 3) npm start
+# 1) download the files 2) npm install 3) npm start
 
 
 
